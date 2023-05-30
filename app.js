@@ -5,12 +5,8 @@ const btn2 = document.getElementById('btn2');
 var c1 = document.getElementById('cnt1');
 var c2 = document.getElementById('cnt2');
 const msg = document.getElementById('msg');
-var count = 0;
-var same = [4];
-
 
 function back(){
-    
     c1.style.display = "grid";
     c2.style.display = "none";
     input.value = '';
